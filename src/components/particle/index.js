@@ -16,31 +16,35 @@ export const Particle = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fpsLimit: 120,
+        fpsLimit: 50,
         interactivity: {
           events: {
+            onClick: {
+							enable: true,
+							mode: 'push',
+						},
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",
             },
             resize: true,
           },
           modes: {
             push: {
-              quantity: 4,
+              quantity: 2,
             },
             repulse: {
-              distance: 200,
+              distance: 150,
               duration: 0.4,
             },
           },
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#D1C4E9",
           },
           links: {
-            color: "#ffffff",
+            color: "#673AB7",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -54,7 +58,7 @@ export const Particle = () => {
               default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 1,
             straight: false,
           },
           number: {
@@ -65,13 +69,13 @@ export const Particle = () => {
             value: 80,
           },
           opacity: {
-            value: 0.5,
+            value: 0.9,
           },
           shape: {
-            type: "circle",
+            type: "star",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 2, max: 5 },
           },
         },
         detectRetina: true,

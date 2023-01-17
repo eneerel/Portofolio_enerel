@@ -13,7 +13,7 @@ const Hero = () => {
           <h1>Hello My name is Enerel</h1>
           <h1>
             I am the{" "}
-            <span style={{ color: "#007FFF" }}>
+            <span style={{ color: "#7986CB" }}>
               <Typewriter
                 words={["React Developer", "UI Designer", "Software Engineer"]}
                 loop={false}
@@ -21,18 +21,15 @@ const Hero = () => {
             </span>
           </h1>
           <div className={styles.Icons}>
-            <SocialIcon network="twitter" />
-            <SocialIcon network="google" />
-            <SocialIcon network="instagram" />
-            <SocialIcon network="youtube" />
-            <SocialIcon network="facebook" />
+            <SocialIcon network="instagram" url="https://www.instagram.com/bqxrbie.___/" />
+            <SocialIcon network="youtube" url="https://youtu.be/dsQSNO_UlfA" />
           </div>
         </div>
       </div>
       <div className={styles.HeroItem}>
         <div className={styles.ImgContainer}>
           <img
-            src=""
+            src="./images/imagen-de-la-luna_ae2043e2_1041x1041.jpeg"
           />
         </div>
       </div>

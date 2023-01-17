@@ -1,7 +1,7 @@
 .Container {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(33, 31, 31);
+    background-color:#020418;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,13 +12,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: salmon;
+    color:#D1C4E9;
     z-index: 1000;
   }
   
   .ImgContainer {
-    max-width: 500px;
-    height: 500px;
+    max-width: 350px;
+    height: 350px;
     border-radius: 50%;
   }
   
